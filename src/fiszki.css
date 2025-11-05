@@ -1,6 +1,6 @@
 .fiszka {
     background-color: rgb(255, 255, 255);
-    width: 15vw;
+    width: 120px;
     height: 30vh;
     display: flex;
     flex-direction: column;

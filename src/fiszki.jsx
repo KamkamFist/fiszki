@@ -4,13 +4,14 @@ import Karta from "./karta.jsx";
 
 function fiszki({data}) {
   
+    const current = Math.floor(Math.random() * data.length);
 
     return (
         <>
         <div id="fiszkaWall">
-        {data.map((item) =>
-        <Karta data={item}/>
-      )}    
+        
+        <Karta data={data} id={current}/>
+         
         </div>
         </>
     )
